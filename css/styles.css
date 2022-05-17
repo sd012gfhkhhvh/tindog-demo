@@ -1,0 +1,184 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-title {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    /* color: white; */
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download Button */
+.Download-Button {
+    margin: 5% 3% 3% 0;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 20vw;
+    transform: rotate(25deg);
+    /* margin: 20px 0 0 114px; */
+    position: absolute;
+}
+
+/* Features */
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-box {
+    padding: 2.5rem 3rem;
+    text-align: center;
+}
+
+.features-icon {
+    color: #ef8172;
+    padding-bottom: 12px;
+}
+
+.features-icon:hover {
+    color: #ff4c88;
+}
+
+.features-para {
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.card-column {
+    padding: 3% 2%;
+}
+
+.btn-last {
+    width: 100%;
+}
+
+/* call to action */
+#cta {
+    padding: 5% 15% 7.5%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-h3 {
+    font-size: 50px;
+}
+
+.cta-button {
+    margin: 4% 2% 0 0;
+}
+
+/* Footer */
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 6% 15% 4%;
+}
+
+.footer-icon {
+    margin: 10px;
+}
+
+.footer-icon:hover {
+    color: #ff4c68;
+}
+
+.footer-para {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+@media (max-width:1020px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        width: 30vw;
+        transform: rotate(0deg);
+    }
+}
